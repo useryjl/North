@@ -1,0 +1,4 @@
+com\yjl\dao\Studentdao.class
+com\yjl\service\Studentservice.class
+com\yjl\service\impl\StudentserviceImpl.class
+com\yjl\domain\Student.class
