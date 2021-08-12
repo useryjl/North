@@ -4,6 +4,15 @@ public class Student {
     private Integer id;
     private String name;
     private Integer age;
+    private Integer rr;
+
+    public Integer getRr() {
+        return rr;
+    }
+
+    public void setRr(Integer rr) {
+        this.rr = rr;
+    }
 
     public Integer getId() {
         return id;
@@ -44,6 +53,7 @@ public class Student {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
+                ", rr=" + rr +
                 '}';
     }
 }
